@@ -1,0 +1,92 @@
+╔══════════════════════════════════════════════════════════════╗
+║          LUNA SOCIAL APP - QUICK START GUIDE                 ║
+╚══════════════════════════════════════════════════════════════╝
+
+📦 INSTALLATION (First Time Only):
+
+   Terminal 1 (Backend):
+   ─────────────────────
+   cd social-app/backend
+   npm install
+   npm start
+
+   Terminal 2 (Frontend):
+   ──────────────────────
+   cd social-app/frontend  
+   npm install
+   npm start
+
+   ✅ Browser opens at: http://localhost:3000
+
+🔄 RUNNING AGAIN (After First Install):
+
+   Terminal 1: cd social-app/backend && npm start
+   Terminal 2: cd social-app/frontend && npm start
+
+👤 DEMO ACCOUNTS:
+
+   Email: emma@example.com    | Password: password123
+   Email: alex@example.com    | Password: password123
+   Email: sarah@example.com   | Password: password123
+
+🎯 KEY FEATURES:
+
+   ✓ Home Feed - View and interact with posts
+   ✓ Messages - Private chat with users
+   ✓ Upload (+ Button) - Create posts & stories
+   ✓ Stories - 24-hour expiring content
+   ✓ Search - Find and follow users
+   ✓ Profile - Manage your account
+   ✓ Notifications - Bell icon in header
+
+⭐ LEVEL SYSTEM:
+
+   Level 1: 0-9 followers     ★
+   Level 2: 10-19 followers   ★★
+   Level 3: 20-29 followers   ★★★
+   Level 4: 30-59 followers   ★★★★ + Verified Badge ✓
+   Level 5: 60+ followers     ★★★★★ + Verified Badge ✓
+
+🎨 TECH STACK:
+
+   Frontend: React + Custom CSS
+   Backend: Node.js + Express
+   Database: JSON Files
+   Storage: Local Filesystem
+
+📁 PROJECT STRUCTURE:
+
+   social-app/
+   ├── backend/        → Node.js server (Port 5000)
+   ├── frontend/       → React app (Port 3000)
+   ├── data/           → JSON database files
+   └── uploads/        → Media storage
+
+🐛 COMMON ISSUES:
+
+   Problem: Port already in use
+   Solution: Stop other servers or change port
+
+   Problem: Blank page
+   Solution: Check both servers are running
+
+   Problem: API errors
+   Solution: Verify backend is on port 5000
+
+   Problem: npm install fails
+   Solution: Delete node_modules and try again
+
+📖 FULL DOCUMENTATION:
+
+   See README.md for complete feature list
+   See SETUP.md for detailed installation guide
+
+🛑 STOP SERVERS:
+
+   Press Ctrl+C in both terminal windows
+
+───────────────────────────────────────────────────────────────
+
+Need help? Check SETUP.md for troubleshooting! 
+
+Happy posting! 🚀

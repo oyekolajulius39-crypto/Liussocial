@@ -1,0 +1,24 @@
+[
+  {
+    "id": "s1",
+    "userId": "1",
+    "media": {
+      "type": "image",
+      "url": ""
+    },
+    "anonymous": false,
+    "views": ["2", "3"],
+    "createdAt": "2026-02-03T06:00:00.000Z"
+  },
+  {
+    "id": "s2",
+    "userId": "2",
+    "media": {
+      "type": "image",
+      "url": ""
+    },
+    "anonymous": false,
+    "views": ["1"],
+    "createdAt": "2026-02-03T07:00:00.000Z"
+  }
+]

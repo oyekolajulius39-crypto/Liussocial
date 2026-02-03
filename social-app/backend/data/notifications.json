@@ -1,0 +1,21 @@
+[
+  {
+    "id": "n1",
+    "userId": "1",
+    "type": "like",
+    "fromUser": "2",
+    "postId": "1001",
+    "message": "sarah_dev liked your post",
+    "read": false,
+    "createdAt": "2026-02-02T14:00:00.000Z"
+  },
+  {
+    "id": "n2",
+    "userId": "2",
+    "type": "follow",
+    "fromUser": "3",
+    "message": "mike_artist started following you",
+    "read": false,
+    "createdAt": "2026-02-03T08:30:00.000Z"
+  }
+]

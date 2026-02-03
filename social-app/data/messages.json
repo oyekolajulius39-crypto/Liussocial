@@ -1,0 +1,35 @@
+[
+  {
+    "id": "msg1",
+    "senderId": "user1",
+    "receiverId": "user2",
+    "content": "Hey! Love your latest post!",
+    "mediaUrl": null,
+    "mediaType": null,
+    "anonymous": false,
+    "read": true,
+    "createdAt": "2024-02-02T15:20:00Z"
+  },
+  {
+    "id": "msg2",
+    "senderId": "user2",
+    "receiverId": "user1",
+    "content": "Thanks! Your artwork is incredible too 🎨",
+    "mediaUrl": null,
+    "mediaType": null,
+    "anonymous": false,
+    "read": true,
+    "createdAt": "2024-02-02T15:22:00Z"
+  },
+  {
+    "id": "msg3",
+    "senderId": "user3",
+    "receiverId": "user1",
+    "content": "Want to collaborate on a project?",
+    "mediaUrl": null,
+    "mediaType": null,
+    "anonymous": false,
+    "read": false,
+    "createdAt": "2024-02-03T10:00:00Z"
+  }
+]

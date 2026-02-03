@@ -1,0 +1,64 @@
+[
+  {
+    "id": "post1",
+    "userId": "user1",
+    "content": "Just finished my latest digital artwork! What do you think? 🎨",
+    "mediaUrl": "/uploads/artwork1.jpg",
+    "mediaType": "image",
+    "likes": ["user2", "user3"],
+    "comments": [
+      {
+        "id": "c1",
+        "userId": "user2",
+        "content": "This is amazing! Love the colors 💜",
+        "createdAt": "2024-02-02T14:25:00Z"
+      }
+    ],
+    "shares": 2,
+    "anonymous": false,
+    "createdAt": "2024-02-02T12:30:00Z"
+  },
+  {
+    "id": "post2",
+    "userId": "user2",
+    "content": "Just deployed my new web app! Check it out 🚀",
+    "mediaUrl": null,
+    "mediaType": null,
+    "likes": ["user1"],
+    "comments": [],
+    "shares": 1,
+    "anonymous": false,
+    "createdAt": "2024-02-02T10:15:00Z"
+  },
+  {
+    "id": "post3",
+    "userId": "user3",
+    "content": "Sunset views from Santorini are unbeatable! 🌅",
+    "mediaUrl": "/uploads/sunset.jpg",
+    "mediaType": "image",
+    "likes": ["user1", "user2"],
+    "comments": [
+      {
+        "id": "c2",
+        "userId": "user1",
+        "content": "Wow! This is on my bucket list",
+        "createdAt": "2024-02-02T16:40:00Z"
+      }
+    ],
+    "shares": 3,
+    "anonymous": false,
+    "createdAt": "2024-02-01T18:45:00Z"
+  },
+  {
+    "id": "post4",
+    "userId": "anonymous",
+    "content": "Sometimes the best moments are the ones we share anonymously...",
+    "mediaUrl": null,
+    "mediaType": null,
+    "likes": ["user1"],
+    "comments": [],
+    "shares": 0,
+    "anonymous": true,
+    "createdAt": "2024-02-01T20:10:00Z"
+  }
+]

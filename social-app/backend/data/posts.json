@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1001",
+    "userId": "1",
+    "content": "Just captured the most amazing sunset today! 🌅 What do you think?",
+    "media": [],
+    "anonymous": false,
+    "likes": ["2", "3"],
+    "comments": [
+      {
+        "id": "c1",
+        "userId": "2",
+        "username": "sarah_dev",
+        "text": "Stunning shot! Love the colors!",
+        "createdAt": "2026-02-02T14:30:00.000Z"
+      }
+    ],
+    "shares": 1,
+    "createdAt": "2026-02-02T12:00:00.000Z"
+  },
+  {
+    "id": "1002",
+    "userId": "2",
+    "content": "Working on a new full-stack project. Excited to share it soon! 💻✨",
+    "media": [],
+    "anonymous": false,
+    "likes": ["1"],
+    "comments": [],
+    "shares": 0,
+    "createdAt": "2026-02-02T16:00:00.000Z"
+  },
+  {
+    "id": "1003",
+    "userId": "3",
+    "content": "New digital art piece completed! Check out my latest creation.",
+    "media": [],
+    "anonymous": false,
+    "likes": ["1", "2"],
+    "comments": [
+      {
+        "id": "c2",
+        "userId": "1",
+        "username": "alex_creator",
+        "text": "This is incredible! Your style is so unique.",
+        "createdAt": "2026-02-03T09:00:00.000Z"
+      }
+    ],
+    "shares": 2,
+    "createdAt": "2026-02-03T08:00:00.000Z"
+  }
+]

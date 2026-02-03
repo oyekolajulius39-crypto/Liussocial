@@ -1,0 +1,32 @@
+[
+  {
+    "id": "story1",
+    "userId": "user1",
+    "mediaUrl": "/uploads/story1.jpg",
+    "mediaType": "image",
+    "views": ["user2", "user3"],
+    "anonymous": false,
+    "createdAt": "2024-02-03T08:00:00Z",
+    "expiresAt": "2024-02-04T08:00:00Z"
+  },
+  {
+    "id": "story2",
+    "userId": "user2",
+    "mediaUrl": "/uploads/story2.jpg",
+    "mediaType": "image",
+    "views": ["user1"],
+    "anonymous": false,
+    "createdAt": "2024-02-03T09:30:00Z",
+    "expiresAt": "2024-02-04T09:30:00Z"
+  },
+  {
+    "id": "story3",
+    "userId": "user3",
+    "mediaUrl": "/uploads/story3.jpg",
+    "mediaType": "image",
+    "views": ["user1", "user2"],
+    "anonymous": false,
+    "createdAt": "2024-02-03T07:15:00Z",
+    "expiresAt": "2024-02-04T07:15:00Z"
+  }
+]

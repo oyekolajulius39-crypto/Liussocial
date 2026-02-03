@@ -1,0 +1,36 @@
+.home-container {
+  animation: fadeIn 0.5s ease;
+}
+
+.home-header {
+  margin-bottom: 24px;
+}
+
+.home-header h2 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 32px;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: var(--gray);
+  font-size: 14px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--gray);
+}
+
+.empty-state i {
+  font-size: 64px;
+  margin-bottom: 20px;
+  opacity: 0.3;
+}
+
+.empty-subtitle {
+  font-size: 14px;
+  margin-top: 8px;
+}

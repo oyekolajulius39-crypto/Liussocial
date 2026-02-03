@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1",
+    "username": "alex_creator",
+    "email": "alex@example.com",
+    "password": "$2a$10$YourHashedPasswordHere1",
+    "profilePic": "",
+    "bio": "Content creator and photographer 📸",
+    "followers": ["2", "3"],
+    "following": ["2"],
+    "level": 1,
+    "verified": false,
+    "createdAt": "2025-01-04T12:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "username": "sarah_dev",
+    "email": "sarah@example.com",
+    "password": "$2a$10$YourHashedPasswordHere2",
+    "profilePic": "",
+    "bio": "Full-stack developer | Tech enthusiast 💻",
+    "followers": ["1", "3"],
+    "following": ["1", "3"],
+    "level": 1,
+    "verified": false,
+    "createdAt": "2025-01-14T12:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "username": "mike_artist",
+    "email": "mike@example.com",
+    "password": "$2a$10$YourHashedPasswordHere3",
+    "profilePic": "",
+    "bio": "Digital artist | NFT creator 🎨",
+    "followers": ["1", "2"],
+    "following": ["2"],
+    "level": 1,
+    "verified": false,
+    "createdAt": "2025-01-19T12:00:00.000Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "user1",
+    "username": "emma_creative",
+    "email": "emma@example.com",
+    "password": "password123",
+    "profilePicture": "/uploads/emma.jpg",
+    "bio": "Digital artist & photographer 📸 Sharing my creative journey",
+    "followers": ["user2", "user3"],
+    "following": ["user2"],
+    "level": 1,
+    "verified": false,
+    "createdAt": "2024-01-15T10:30:00Z"
+  },
+  {
+    "id": "user2",
+    "username": "alex_tech",
+    "email": "alex@example.com",
+    "password": "password123",
+    "profilePicture": "/uploads/alex.jpg",
+    "bio": "Tech enthusiast | Software developer | Coffee addict ☕",
+    "followers": ["user1", "user3"],
+    "following": ["user1", "user3"],
+    "level": 1,
+    "verified": false,
+    "createdAt": "2024-01-10T08:20:00Z"
+  },
+  {
+    "id": "user3",
+    "username": "sarah_wanderlust",
+    "email": "sarah@example.com",
+    "password": "password123",
+    "profilePicture": "/uploads/sarah.jpg",
+    "bio": "Travel blogger ✈️ Exploring the world one city at a time",
+    "followers": ["user1", "user2"],
+    "following": ["user1", "user2"],
+    "level": 1,
+    "verified": false,
+    "createdAt": "2024-01-05T14:45:00Z"
+  }
+]

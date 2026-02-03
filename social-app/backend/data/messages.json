@@ -1,0 +1,22 @@
+[
+  {
+    "id": "m1",
+    "senderId": "1",
+    "receiverId": "2",
+    "text": "Hey! Love your recent project update!",
+    "media": null,
+    "anonymous": false,
+    "read": true,
+    "createdAt": "2026-02-02T15:00:00.000Z"
+  },
+  {
+    "id": "m2",
+    "senderId": "2",
+    "receiverId": "1",
+    "text": "Thanks so much! Really appreciate it 😊",
+    "media": null,
+    "anonymous": false,
+    "read": true,
+    "createdAt": "2026-02-02T15:30:00.000Z"
+  }
+]
