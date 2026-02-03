@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../styles/Notifications.css';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://liussocial.onrender.com/api';
 
 function Notifications({ currentUser, onClose }) {
   const [notifications, setNotifications] = useState([]);
