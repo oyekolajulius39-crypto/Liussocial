@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import '../styles/Upload.css';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://liussocial.onrender.com/api';
 
 function Upload({ currentUser, onClose }) {
   const [uploadType, setUploadType] = useState('post'); // 'post' or 'story'
