@@ -3,7 +3,8 @@ import axios from 'axios';
 import Post from './Post';
 import '../styles/Home.css';
 
-const API_BASE = 'http://localhost:5000/api';
+// Updated backend URL to Render deployment
+const API_BASE = 'https://liussocial.onrender.com/api';
 
 function Home({ currentUser }) {
   const [posts, setPosts] = useState([]);
