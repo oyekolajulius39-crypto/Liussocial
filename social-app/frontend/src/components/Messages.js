@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../styles/Messages.css';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://liussocial.onrender.com/api';
 
 function Messages({ currentUser }) {
   const [conversations, setConversations] = useState([]);
