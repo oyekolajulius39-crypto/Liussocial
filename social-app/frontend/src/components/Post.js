@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import '../styles/Post.css';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://liussocial.onrender.com/api';
 
 function Post({ post, currentUser, onUpdate }) {
   const [showComments, setShowComments] = useState(false);
